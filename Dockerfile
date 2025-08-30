@@ -13,5 +13,5 @@ COPY . .
 # Expose port 5000 for the application
 EXPOSE 5000
 
-# Command to run the application
+# Command to run the application using Node.js
 CMD [ "node", "server.js" ]
